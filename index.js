@@ -15,7 +15,7 @@ function randomGuess(range) {
     points += 1;
     stage += 1;
     console.log(`You have gained ${points} point \n`)
-    console.log(`You Entered ${stage} \n`)
+    console.log(`You Entered stage ${stage} \n`)
   } else  {
     console.log("wrong guess")
    console.log('you have total of', points)
